@@ -34,12 +34,12 @@ const platformConfig = {
 };
 
 const getGroupEmoji = (name: string) => {
-  if (name.includes('Baby Love')) return '👶';
-  if (name.includes('זנב') || name.includes('חברים עם')) return '🐾';
-  if (name.includes('גאגט') || name.includes('טכנולוגיה')) return '🤖';
-  if (name.includes('תחפושות') || name.includes('פורים')) return '🎭';
-  if (name.includes('עיצוב') || name.includes('בית')) return '🏠';
-  return '✨';
+  if (name.includes('Baby Love')) return String.fromCodePoint(0x1F476); // 👶
+  if (name.includes('זנב') || name.includes('חברים עם')) return String.fromCodePoint(0x1F43E); // 🐾
+  if (name.includes('גאגט') || name.includes('טכנולוגיה')) return String.fromCodePoint(0x1F916); // 🤖
+  if (name.includes('תחפושות') || name.includes('פורים')) return String.fromCodePoint(0x1F3AD); // 🎭
+  if (name.includes('עיצוב') || name.includes('בית')) return String.fromCodePoint(0x1F3E0); // 🏠
+  return String.fromCodePoint(0x2728); // ✨
 };
 
 interface Link {
@@ -85,7 +85,6 @@ export default function PlatformSection({ platform, links, index }: PlatformSect
       className={`py-16 md:py-24 bg-gradient-to-br ${config.bgGradient}`}
     >
       <div className="max-w-6xl mx-auto px-6">
-        {/* Section Header */}
         <div className="flex items-center gap-4 mb-10">
           <div className={`p-4 rounded-2xl bg-gradient-to-br ${config.gradient} shadow-lg`}>
             <Icon className="w-8 h-8 text-white" />
@@ -98,7 +97,6 @@ export default function PlatformSection({ platform, links, index }: PlatformSect
           </div>
         </div>
         
-        {/* Links Grid */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -123,7 +121,7 @@ export default function PlatformSection({ platform, links, index }: PlatformSect
             >
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-3 flex-1">
-                  <span className="text-3xl">{getGroupEmoji(link.name)}</span>
+                  <span className="text-3xl leading-none inline-block" style={{ fontFamily: 'Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif' }} role="img" aria-label="emoji">{getGroupEmoji(link.name)}</span>
                   <div>
                     <h3 className="font-semibold text-slate-900 group-hover:text-white transition-colors duration-300 text-lg">
                       {link.name}
@@ -134,15 +132,9 @@ export default function PlatformSection({ platform, links, index }: PlatformSect
                   <ExternalLink className="w-4 h-4 text-slate-400 group-hover:text-white transition-colors duration-300" />
                 </div>
               </div>
-              
-              {/* Decorative number */}
-              <span className="absolute bottom-4 right-4 text-6xl font-bold text-slate-100 group-hover:text-white/10 transition-colors duration-300">
-                {i + 1}
-              </span>
             </motion.a>
           ))}
           
-          {/* Placeholder cards if less than 5 links */}
           {links.length < 5 && [...Array(5 - links.length)].map((_, i) => (
             <motion.div
               key={`placeholder-${i}`}
@@ -160,6 +152,3 @@ export default function PlatformSection({ platform, links, index }: PlatformSect
     </motion.section>
   );
 }
-
-
-
