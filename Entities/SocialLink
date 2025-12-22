@@ -1,0 +1,32 @@
+{
+  "name": "SocialLink",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name for the page"
+    },
+    "url": {
+      "type": "string",
+      "description": "URL to the social media page"
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "instagram",
+        "facebook",
+        "telegram"
+      ],
+      "description": "Social media platform"
+    },
+    "order": {
+      "type": "number",
+      "description": "Display order within the platform"
+    }
+  },
+  "required": [
+    "name",
+    "url",
+    "platform"
+  ]
+}
