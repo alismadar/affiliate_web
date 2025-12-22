@@ -2,9 +2,9 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { base44 } from "@/api/base44Client";
-import HeroSection from "@/components/landing/HeroSection";
-import PlatformSection from "@/components/landing/PlatformSection";
-import Footer from "@/components/landing/Footer";
+import HeroSection from "@/Components/landing/HeroSection";
+import PlatformSection from "@/Components/landing/PlatformSection";
+import Footer from "@/Components/landing/Footer";
 import { Loader2 } from "lucide-react";
 
 export default function Home() {
