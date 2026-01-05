@@ -61,13 +61,12 @@ export default function AquaDealsHeroSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight mb-6 drop-shadow-lg">
-            ברוכים הבאים ל
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-500 drop-shadow-md">
-              AquaDeals ישראל
+              ציוד לאקווריום במחירים שלא רואים בארץ
             </span>
           </h1>
           <p className="text-2xl md:text-3xl font-semibold text-black mb-2 drop-shadow-md">
-            מבצעים מיוחדים על מוצרי אקווריום! 🐠🌊
+            רק מוצרים שבאמת שווים - בלי ספאם
           </p>
         </motion.div>
         
@@ -77,11 +76,22 @@ export default function AquaDealsHeroSection() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="text-base md:text-lg text-slate-900 max-w-3xl mx-auto leading-relaxed space-y-4"
         >
-          <p className="font-bold text-black drop-shadow-sm">
-            גלו את המבצעים הטובים ביותר על מוצרי אקווריום! אנחנו סורקים את הרשת סביב השעון 
-            כדי למצוא עבורכם את המחירים הטובים ביותר על ציוד אקווריום, דגים, צמחי מים וכל מה שצריך 
-            לאקווריום המושלם שלכם.
-          </p>
+          <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-slate-200/50">
+            <div className="space-y-3 text-right">
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 font-bold text-xl">✅</span>
+                <span className="font-bold text-black drop-shadow-sm text-lg">סינון יומי של ציוד לאקווריום</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 font-bold text-xl">✅</span>
+                <span className="font-bold text-black drop-shadow-sm text-lg">רק מוצרים עם ביקורות גבוהות</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 font-bold text-xl">✅</span>
+                <span className="font-bold text-black drop-shadow-sm text-lg">מחירים זולים משמעותית מהחנויות בארץ</span>
+              </div>
+            </div>
+          </div>
           
           <motion.div
             initial={{ opacity: 0 }}
@@ -98,7 +108,7 @@ export default function AquaDealsHeroSection() {
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.717-2.415 11.394-2.415 11.394-.18.717-.54.896-.896.717-.358-.18-5.95-4.124-5.95-4.124s4.484-4.305 4.663-4.484c.18-.18.18-.36 0-.54-.18-.18-4.663 2.954-4.663 2.954s-.538-.18-1.075-.358c-.537-.179-1.254-.359-1.254-.359s-.717-.18-.358-.717c.358-.537 8.048-7.69 8.048-7.69s.717-.538 1.075-.18c.358.359.717 1.076.717 1.076s.18.717 0 1.076z"/>
               </svg>
-              <span>הצטרפו לטלגרם</span>
+              <span>הצטרפו עכשיו ואל תשלמו מחירי חנות 🚀 </span>
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
@@ -106,35 +116,32 @@ export default function AquaDealsHeroSection() {
           </motion.div>
           
           <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-xl border border-slate-200/50">
-            <h3 className="text-xl font-bold text-slate-900 mb-4 drop-shadow-sm">למה AquaDeals?</h3>
-            <div className="space-y-3 text-right">
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 font-bold text-lg">✅</span>
-                <div>
-                  <span className="font-semibold text-slate-800">מבצעים בלעדיים:</span>
-                  <span className="text-slate-600"> רק המחירים הטובים ביותר על מוצרי אקווריום.</span>
-                </div>
+            <h4 className="text-lg font-bold text-slate-900 mb-3 text-right">🔥 דוגמה למה שעולה פה:</h4>
+            <div className="space-y-2 text-right">
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">🐠</span>
+                <span className="font-semibold text-slate-800">מזין דגים אוטומטי – ירד מ־₪61 ל-₪28</span>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 font-bold text-lg">✅</span>
-                <div>
-                  <span className="font-semibold text-slate-800">מגוון רחב:</span>
-                  <span className="text-slate-600"> ציוד, דגים, צמחי מים, תאורה, פילטרים ועוד.</span>
-                </div>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">💡</span>
+                <span className="font-semibold text-slate-800">דקורציה לאקווריום בצורת חבית/גזע עץ - רק-₪18 (68% הנחה!)</span>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 font-bold text-lg">✅</span>
-                <div>
-                  <span className="font-semibold text-slate-800">עדכונים שוטפים:</span>
-                  <span className="text-slate-600"> התראות מיידיות על מבצעים חדשים בטלגרם.</span>
-                </div>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">🧼</span>
+                <span className="font-semibold text-slate-800">תאורת LED מחליפת צבעים עם בועות לאקווריום – אחד הנמכרים בערוץ! רק 28 שקל!</span>
               </div>
             </div>
           </div>
           
-          <p className="text-lg font-semibold text-slate-800 pt-2 drop-shadow-sm">
-            הצטרפו אלינו ותהנו ממבצעים מיוחדים על כל מה שצריך לאקווריום שלכם. 💎
-          </p>
+          <div className="bg-amber-50/80 backdrop-blur-sm rounded-xl p-4 border border-amber-200/50 mt-4">
+            <div className="flex items-center justify-center gap-2 text-right">
+              <span className="text-2xl">⏰</span>
+              <div>
+                <p className="font-bold text-slate-900 text-lg">הדילים מתחלפים כל הזמן</p>
+                <p className="text-slate-700">מי שלא בפנים – מפספס</p>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
