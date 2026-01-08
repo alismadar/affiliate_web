@@ -108,7 +108,7 @@ export default function AquaDealsHeroSection() {
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.717-2.415 11.394-2.415 11.394-.18.717-.54.896-.896.717-.358-.18-5.95-4.124-5.95-4.124s4.484-4.305 4.663-4.484c.18-.18.18-.36 0-.54-.18-.18-4.663 2.954-4.663 2.954s-.538-.18-1.075-.358c-.537-.179-1.254-.359-1.254-.359s-.717-.18-.358-.717c.358-.537 8.048-7.69 8.048-7.69s.717-.538 1.075-.18c.358.359.717 1.076.717 1.076s.18.717 0 1.076z"/>
               </svg>
-              <span>הצטרפו עכשיו ואל תשלמו מחירי חנות 🚀 </span>
+              <span>לחצו כאן ותפסיקו תשלמו מחירי חנות 🚀 </span>
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
