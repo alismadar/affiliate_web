@@ -14,7 +14,6 @@ export default function Home() {
     retry: false,
   });
 
-  const instagramLinks = (links || []).filter((l) => l.platform === "instagram");
   const facebookLinks = (links || []).filter((l) => l.platform === "facebook");
   const telegramLinks = (links || []).filter((l) => l.platform === "telegram");
 
@@ -35,8 +34,8 @@ export default function Home() {
       <HeroSection />
       
       <PlatformSection 
-        platform="instagram" 
-        links={instagramLinks} 
+        platform="telegram" 
+        links={telegramLinks} 
         index={0} 
       />
       
@@ -44,12 +43,6 @@ export default function Home() {
         platform="facebook" 
         links={facebookLinks} 
         index={1} 
-      />
-      
-      <PlatformSection 
-        platform="telegram" 
-        links={telegramLinks} 
-        index={2} 
       />
       
       <Footer />
