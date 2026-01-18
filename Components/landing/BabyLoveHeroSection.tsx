@@ -108,9 +108,16 @@ export default function BabyLoveHeroSection() {
           className="text-base md:text-lg text-slate-800 max-w-3xl mx-auto leading-relaxed space-y-4"
         >
           <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-pink-200/50">
-            <p className="text-lg text-slate-800 mb-4 text-right">
-            אני יודעת כמה זה קשה למצוא מוצרים איכותיים במחיר שפוי. בדיוק בשביל זה אני כאן! ריכזתי עבורך את הדילים והמוצרים הכי טובים לקטנטנים – בקבוקים, טקסטיל רך, צעצועי התפתחות ועוד.
-            </p>
+            <div className="space-y-3 text-right mb-2">
+              <div className="flex items-start gap-1">
+                <span className="text-pink-500 font-bold text-xl">💝</span>
+                <p className="text-lg text-slate-800">אני יודעת כמה זה קשה למצוא מוצרים איכותיים במחיר שפוי. בדיוק בשביל זה אני כאן!</p>
+              </div>
+              <div className="flex items-start gap-1">
+                <span className="text-pink-500 font-bold text-xl">💝</span>
+                <p className="text-lg text-slate-800">ריכזתי עבורך את הדילים והמוצרים הכי טובים לקטנטנים</p>
+              </div>
+            </div>
             
             <motion.div
               initial={{ opacity: 0 }}
