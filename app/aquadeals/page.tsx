@@ -5,7 +5,7 @@ import Footer from "@/Components/landing/Footer";
 
 export default function AquaDealsPage() {
   return (
-    <div className="min-h-screen bg-white" dir="rtl">
+    <div className="min-h-screen bg-white pb-28" dir="rtl">
       <AquaDealsHeroSection />
       <Footer />
     </div>
