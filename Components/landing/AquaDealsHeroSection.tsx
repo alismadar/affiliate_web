@@ -100,7 +100,7 @@ export default function AquaDealsHeroSection() {
             className="flex justify-center mt-6 mb-6"
           >
             <a
-              href="https://t.me/+qmkKWYV5qS5hMzU0"
+              href="https://t.me/AquaDealsIsrael"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-sky-500 to-blue-600 text-white rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
