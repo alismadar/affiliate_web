@@ -108,39 +108,19 @@ export default function BabyLoveHeroSection() {
           className="text-base md:text-lg text-slate-800 max-w-3xl mx-auto leading-relaxed space-y-4"
         >
           <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-pink-200/50">
-            <div className="space-y-3 text-right mb-2">
-              <div className="flex items-start gap-1">
+            <div className="space-y-3 text-right">
+              <div className="flex items-start gap-3">
                 <span className="text-pink-500 font-bold text-xl">💝</span>
                 <p className="text-lg text-slate-800">אני יודעת כמה זה קשה למצוא מוצרים איכותיים במחיר שפוי. בדיוק בשביל זה אני כאן!</p>
               </div>
-              <div className="flex items-start gap-1">
+              <div className="flex items-start gap-3">
                 <span className="text-pink-500 font-bold text-xl">💝</span>
                 <p className="text-lg text-slate-800">ריכזתי עבורך את הדילים והמוצרים הכי טובים לקטנטנים</p>
               </div>
             </div>
-            
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="flex justify-center mt-6 mb-6"
-            >
-              <a
-                href="https://t.me/+BxCbCRpxX9owMTI0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
-              >
-                <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
-                </svg>
-                <span>לחצי כאן ותפסיקי לשלם מחירי חנות 👶💕</span>
-                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-              </a>
-            </motion.div>
-            
+          </div>
+
+          <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-pink-200/50">
             <div className="space-y-3 text-right">
               <div className="flex items-start gap-3">
                 <span className="text-green-600 font-bold text-xl">✅</span>
@@ -237,28 +217,6 @@ export default function BabyLoveHeroSection() {
             </div>
           </div>
           
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex justify-center mt-6 mb-6"
-          >
-            <a
-              href="https://t.me/+BxCbCRpxX9owMTI0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
-            >
-              <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
-              </svg>
-              <span>לחצי כאן ותפסיקי לשלם מחירי חנות 👶💕</span>
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-            </a>
-          </motion.div>
-          
           <div className="bg-pink-50/90 backdrop-blur-sm rounded-xl p-5 border border-pink-200/60 mt-4">
             <div className="flex items-center justify-center gap-3 text-right">
               <span className="text-3xl">💖</span>
@@ -280,7 +238,7 @@ export default function BabyLoveHeroSection() {
       >
         <div className="flex justify-between items-stretch gap-3 max-w-2xl w-full">
           <a
-            href="https://t.me/+BxCbCRpxX9owMTI0"
+            href="https://chat.whatsapp.com/HWGGzNezBmvGIJyzbD7LEB"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex-1 inline-flex items-center justify-center gap-3 px-5 py-3.5 bg-[#25D366] text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 min-h-[52px]"
