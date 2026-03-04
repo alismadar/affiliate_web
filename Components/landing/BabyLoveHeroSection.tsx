@@ -249,7 +249,7 @@ export default function BabyLoveHeroSection() {
             <span>וואטסאפ</span>
           </a>
           <a
-            href="https://t.me/+BxCbCRpxX9owMTI0"
+            href="https://t.me/BabyLoveIsrael"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex-1 inline-flex items-center justify-center gap-3 px-5 py-3.5 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 min-h-[52px]"
